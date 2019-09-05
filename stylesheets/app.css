@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-    justify-content: none;
+    justify-content: center;
     background-color: white;
 }
 
@@ -253,6 +253,7 @@ a:hover .fab {
      
     .collage img {
         width: 175px;
+        height: auto;
        
     }
     .collage img:nth-child(1){
@@ -286,17 +287,17 @@ a:hover .fab {
     }
     .collage img:nth-child(1){
         top: 100px;
-        left: 70px;
+        left: 50px;
        
     
     }
     .collage img:nth-child(2){
         top: 25px;
-        left: 155px;
+        left: 135px;
     }
     .collage img:nth-child(3){
         top: 50px;
-        left: 255px;
+        left: 235px;
         z-index: -1;
     }
     
