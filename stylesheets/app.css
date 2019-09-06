@@ -149,7 +149,7 @@ a:hover .fab {
 
 /* MEDIA SECTION */
 
-@media (min-height: )
+
 
 @media (max-width: 1300px) { 
 
@@ -157,14 +157,6 @@ a:hover .fab {
         max-width: 100%;
     }
     
-    .title h1 {
-       
-    }
-
-    .title h2 {
-       
-    }
-  
 
     .navbar-brand img {
         width: 30px;
