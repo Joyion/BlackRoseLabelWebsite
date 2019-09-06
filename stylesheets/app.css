@@ -21,6 +21,8 @@ body {
     transition: 0.5s;
     text-shadow: 1px 1px #000000;
 }
+
+/* resize icons and logo */
 a .fab {
     font-size: 30px;
     color: black;
@@ -37,6 +39,8 @@ a:hover .fab {
 .navbar-brand img {
     width: 50px;
 }
+
+/* style hover */
 .navbar a:hover {
     color: rgb(148, 7, 7);;
     text-decoration: underline;
@@ -46,68 +50,12 @@ a:hover .fab {
     text-decoration: underline;
 }
 
-.collage img {
-    width: 300px;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    border-radius: 15px;
-    box-shadow: 3px 3px 5px #1f1f1f94
-}
-
-.myflexTitle {
-    display: inline-flex;
-    width: 100%;
-    min-height: 100vh;
-}
-
-.myflex{
-    display: inline-flex;
-    width: 100%;
-    min-height: 100vh;
-
-}
-
 .title {
-    width: 45%;
-    align-self: center;
-    text-align: center;
     font-family: 'Gentium Book Basic', serif;
     text-shadow: 1px 1px 1px #000000;
 }
-
 .title h1 {
     font-size: 60px;
-}
-
-.titlefont {
-    font-family: 'Gentium Book Basic', serif;
-}
-
-.collage {
-    position: relative;
-    margin: 30px 1%;
-    max-width: 40%;
-
-}
-
-.collage img {
-    position: absolute;
-  
-}
-
-.collage img:nth-child(1){
-    top: 130px;
-
-}
-.collage img:nth-child(2){
-    top: 90px;
-    left: 200px;
-}
-.collage img:nth-child(3){
-    top: 50px;
-    left: 400px;
-    z-index: -1;
 }
 
 #infoOne {
@@ -118,19 +66,23 @@ a:hover .fab {
 }
 
 #infoOne p {
-    
-    padding: 5px;
+   padding: 5px;
 }
 
 .bandProfile {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
 }
 
 #infoTwo {
     padding-top: 0px;
+    letter-spacing: 2px;
+}
+
+#infoTwo h3, p {
+    letter-spacing: 3px;
 }
 
 #infoTwo p {
@@ -143,10 +95,24 @@ a:hover .fab {
 #infoTwo h3 {
     color: rgb(148, 7, 7);
     font-weight: 600;
+    font-size: 25px;
+}
+
+.title2 {
+    background-color: black;
+    color:white;
+    border: 1px solid black;
+    padding: 5px 0px;
+    border-radius: 3px;
+}
+
+.title2 h3 {
+    font-size: 40px;
 }
 
 .smallimg {
-    width: 300px;
+    width: 200px;
+    object-fit: cover;
 }
 
 .albumimg {
@@ -165,6 +131,7 @@ a:hover .fab {
     background-color: black;
     transition:  0.5s;
     font-weight: bold;
+    border-color: gray;
 }
 
 .btn-dark:hover, .btn-light:hover {
@@ -182,6 +149,8 @@ a:hover .fab {
 
 /* MEDIA SECTION */
 
+@media (min-height: )
+
 @media (max-width: 1300px) { 
 
     .title {
@@ -189,46 +158,13 @@ a:hover .fab {
     }
     
     .title h1 {
-        font-size: 40px;
-        padding: 3px;
+       
     }
 
     .title h2 {
-        font-size: 25px;
-        padding: 0px;
+       
     }
   
-
-    .myflexTitle {
-        padding-top: 75px;
-        flex-direction: column;
-    }
-
-    .collage {
-        max-width: 75%;
-        margin: 0 12.5%;
-    }
-
-    .collage img {
-    width: 215px;
-
-        }
-
-
-    .collage img:nth-child(1){
-        top: 100px;
-        left: 200px;
-    
-    }
-    .collage img:nth-child(2){
-        top: 25px;
-        left: 320px;
-    }
-    .collage img:nth-child(3){
-        top: 50px;
-        left: 440px;
-        z-index: -1;
-    }
 
     .navbar-brand img {
         width: 30px;
@@ -251,26 +187,6 @@ a:hover .fab {
 
  @media (max-width: 990px) {
      
-    .collage img {
-        width: 175px;
-        height: auto;
-       
-    }
-    .collage img:nth-child(1){
-        top: 100px;
-        left: 115px;
-       
-    
-    }
-    .collage img:nth-child(2){
-        top: 25px;
-        left: 225px;
-    }
-    .collage img:nth-child(3){
-        top: 50px;
-        left: 350px;
-        z-index: -1;
-    }
 
 
 
@@ -278,28 +194,10 @@ a:hover .fab {
   }
 
 
- /* Medium devices (tablets, 768px and up) */
+ 
 @media (max-width: 767px) { 
    
 
-       .collage img {
-        width: 150px;
-    }
-    .collage img:nth-child(1){
-        top: 100px;
-        left: 50px;
-       
-    
-    }
-    .collage img:nth-child(2){
-        top: 25px;
-        left: 135px;
-    }
-    .collage img:nth-child(3){
-        top: 50px;
-        left: 235px;
-        z-index: -1;
-    }
     
     .title h1 {
         font-size: 30px;
@@ -325,35 +223,29 @@ a:hover .fab {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 575px) { 
-   
-
-    .collage img {
-        width: 150px;
-    }
-    .collage img:nth-child(1){
-        top: 100px;
-        left: 15px;
-       
-    
-    }
-    .collage img:nth-child(2){
-        top: 25px;
-        left: 90px;
-    }
-    .collage img:nth-child(3){
-        top: 50px;
-        left: 190px;
-        z-index: -1;
+    #coverpage {
+        background-image: url("https://images.unsplash.com/photo-1565052161621-0f02dee7b3a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+        
     }
 
+    .title {
+        margin-top: 10vh;
+        text-shadow: 3px 3px 5px black;
+        background-color: rgba(0, 0, 0, 0.014);
+     
+    }
+  
     .title h1 {
-        font-size: 30px;
+
+        font-size: 40px;
         padding: 3px;
+        color: white;
     }
 
     .title h2 {
-        font-size: 18px;
+        font-size: 25px;
         padding: 0px;
+        color: white;
     }
   
 
@@ -362,5 +254,27 @@ a:hover .fab {
         flex-direction: column;
     }
 
+    .info1 h2 {
+        font-size: 24px;
+    }
+
 
  }
+
+ /* Test   */
+
+ 
+img.coverpics {
+  
+    width: 200px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #1f1f1f94
+
+}
+
+#coverpage {
+    padding-top: 23vh;
+}
