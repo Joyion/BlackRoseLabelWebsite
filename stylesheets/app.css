@@ -265,6 +265,7 @@ img.coverpics {
     border-radius: 15px;
     box-shadow: 3px 3px 5px #1f1f1f94;
     object-fit: cover;
+    object-position: 50% 50%;
 
 }
 
