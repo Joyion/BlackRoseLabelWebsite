@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Cabin Condensed', sans-serif;
+    letter-spacing: 2px;
 }
 
 .navbar {
@@ -74,6 +75,7 @@ a:hover .fab {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    box-shadow: 3px 3px 5px #1f1f1f94;
 }
 
 #infoTwo {
@@ -113,6 +115,7 @@ a:hover .fab {
 .smallimg {
     width: 200px;
     object-fit: cover;
+    box-shadow: 3px 3px 5px #1f1f1f94;
 }
 
 .albumimg {
@@ -120,6 +123,7 @@ a:hover .fab {
     height: 200px;
     padding: 10px;
     object-fit: cover;
+    box-shadow: 3px 3px 5px #1f1f1f94;
 }
 
 .btn-light {
@@ -250,6 +254,12 @@ a:hover .fab {
         font-size: 24px;
     }
 
+    .profile {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+     
+    }
 
  }
 
@@ -271,4 +281,74 @@ img.coverpics {
 
 #coverpage {
     padding-top: 23vh;
+}
+
+.footer {
+    min-height: 5vh;
+    background-color: black;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+   
+}
+
+
+#body {
+    min-height: 95vh;
+    padding-top: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+#artists {
+    
+    padding-top: 5%;
+    max-width: 100%;
+    text-shadow: 1px 1px 5px #00000042;
+    align-items: center;
+  
+}
+.profile {
+    min-width: 33%;
+    margin: 10px auto;
+    float: left;
+}
+
+.profile a {
+    color: black;
+    
+}
+
+.profile:hover a   {
+    color: rgb(148, 7, 7);
+    text-decoration: none;
+   
+}
+
+.profile:hover img {
+    border: 5px solid rgb(148, 7, 7);
+   
+}
+
+.body h1 {
+    margin: 0 auto;
+}
+
+#artists img {
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 3px 3px 5px #1f1f1f94;
+   
+
 }
