@@ -183,7 +183,11 @@ a:hover .fab {
 
  @media (max-width: 990px) {
      
-
+    .albums {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
 
 
 
@@ -210,6 +214,9 @@ a:hover .fab {
         height: 100px;
        
     }
+
+
+    
 
 
 
@@ -261,6 +268,12 @@ a:hover .fab {
      
     }
 
+    .albums {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
  }
 
  /* Test   */
@@ -308,7 +321,7 @@ img.coverpics {
 
 }
 
-#artists {
+#artists, #releases {
     
     padding-top: 5%;
     max-width: 100%;
@@ -321,19 +334,29 @@ img.coverpics {
     margin: 10px auto;
     float: left;
 }
-
+.albums {
+    min-width: 33%;
+    margin: 25px auto;
+    float: left;
+    
+    
+}
 .profile a {
     color: black;
     
 }
 
-.profile:hover a   {
+.highlight a {
+    color: white;
+}
+
+.profile:hover a, .highlight:hover a {
     color: rgb(148, 7, 7);
     text-decoration: none;
    
 }
 
-.profile:hover img {
+.profile:hover img, .highlight:hover img {
     border: 5px solid rgb(148, 7, 7);
    
 }
@@ -352,3 +375,26 @@ img.coverpics {
    
 
 }
+
+#releases img {
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    box-shadow: 3px 3px 5px #1f1f1f94;
+    padding: 10px;
+}
+
+.albums p {
+    font-style: italic;
+}
+
+.articleimg {
+    max-width: 500px; object-fit: cover;
+}
+
+.colortitle {
+    color: rgb(148, 7, 7);
+    text-transform: uppercase;
+}
+
